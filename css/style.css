@@ -1,0 +1,266 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+body {
+    background-image: url('../images/bird.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login_box {
+    background:#ffffff66;
+    box-shadow: 0px 0px 10px;
+    width:400px;
+    margin:auto;
+    padding:20px;
+    display:block;
+    margin-top: 200px;
+    border-radius: 10px;
+    /* color:rgb(0, 0, 0); */
+}
+.login_box p {
+    color:rgb(13, 0, 128);
+    font-weight: bold;
+    text-align:center;
+    font-size:30px;
+}
+.main_box {
+   margin-top:10px;
+   padding:0px 10px;
+   width:80%; 
+}
+p {
+    font-size:25px;
+}
+.username {
+    outline: none;
+    width:99%;
+    padding:10px 5px;
+    margin-bottom:15px;
+    background: white;
+    border-style: none;
+}
+.username::placeholder {
+    font-size: 17px;
+}
+.username:focus {
+    box-shadow:0px 0px 5px 1px dodgerblue;
+}
+.password {
+    outline: none;
+    width:99%;
+    padding:10px 5px;
+    margin-bottom:15px;
+    background: white;
+    border-style: none;
+}
+.password::placeholder {
+    font-size: 17px;
+}
+.password:focus {
+    box-shadow:0px 0px 5px 1px dodgerblue;
+}
+.button {
+    outline: none;
+    width: 50%;
+    padding:8px 0px;
+    font-size: 20px;
+    border-style:none;
+    background:rgb(7, 155, 7);
+    color:white;
+    box-shadow:2px 2px 3px black;
+}
+.frgtpass {
+    margin-left:10px;
+    font-weight:bold;
+    color:rgb(54, 54, 54);
+}
+.frgtpass:hover {
+    cursor:pointer;
+}
+.button:hover {
+    background:rgb(2, 190, 2);
+    box-shadow:0px 0px 3px black;
+    /* transition:0.1s; */
+    cursor:pointer;
+}
+.label_2 {
+    display:inline-flex;
+    margin-bottom:6px;
+}
+.label_1 {
+    display:inline-flex;
+    margin-bottom:6px;
+}
+.transaction-box {
+    width:1024px;
+    margin:auto;
+    margin-top:60px;
+    display:none;
+}
+.wlcm {
+    text-align:center;
+    font-size:50px;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+}
+.trsnctn {
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color:lightyellow
+}
+.deposit-out{
+    display:inline-block;
+    padding:40px;
+    background:#d641d666;
+    font-size:25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px;  
+    width:20%;
+}
+.deposit-out p {
+    color:white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.deposit-out label {
+    color:white;
+}
+.withdraw-out {
+    display:inline-block;
+    padding:40px;
+    background:#fd6b527a;
+    font-size:25px;
+    margin-left:82px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px;
+    width:20%;
+}
+.withdraw-out p {
+    color:white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.withdraw-out label {
+    color:white;
+}
+.balance-out {
+    display:inline-block;
+    padding:40px;
+    background:#fa4929a6;
+    font-size:25px;
+    float:right;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px;
+    width:20%;
+}
+.balance-out label {
+    color:white;
+}
+.balance-out p {
+    color:white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+span {
+    color:white;
+}
+.deposite-in {
+    width:40%;
+    display: inline-block;
+    float: left;
+    background: white;
+    box-shadow: 2px 2px 6px;
+    margin-top: 100px;
+    padding:30px;
+    border-radius: 10px;
+}
+.deposite-in p {
+    display:inline-flex;
+    margin-bottom:10px;
+}
+.deposite {
+    width:99%;
+    padding:10px 5px;
+    outline:none;
+    border-style: none;
+    background: #EDEDED;
+    font-size: 1.2rem;
+}
+.deposite:focus {
+    box-shadow:0px 0px 5px 1px dodgerblue;
+}
+.deposite_button {
+    display: inline;
+    outline:none;
+    border-style:none;
+    margin-top:25px;
+    font-size:20px;
+    background:rgb(3, 156, 3);
+    padding:10px;
+    box-shadow:2px 2px 5px black;
+    color:white;
+}
+.deposite_button:hover {
+    background:rgb(0, 179, 0);
+    cursor: pointer;
+
+}
+.withdraw-in {
+    width:40%;
+    display: inline-block;
+    float: right;
+    background: white;
+    box-shadow: 2px 2px 6px;
+    margin-top: 100px;
+    padding:30px;
+    border-radius: 10px;
+}
+.withdraw {
+    width:99%;
+    padding:10px 5px;
+    outline:none;
+    border-style: none;
+    background: #EDEDED;
+    font-size: 1.2rem;
+}
+.withdraw:focus {
+    box-shadow:0px 0px 5px 1px dodgerblue;
+}
+.withdraw-in p {
+    display:inline-flex;
+    margin-bottom:10px;
+}
+.withdraw_button {
+    display: inline;
+    outline:none;
+    border-style:none;
+    margin-top:25px;
+    font-size:20px;
+    background:rgb(3, 156, 3);
+    padding:10px;
+    box-shadow:2px 2px 5px black;
+    color:white;
+}
+.withdraw_button:hover {
+    background:rgb(0, 179, 0);
+    cursor: pointer;
+
+}
+.error_box {
+    width:300px;
+    background:#ffffffad;
+    box-shadow: 0px 0px 5px;
+    margin:auto;
+    margin-top:270px;
+    padding:20px;
+    text-align: justify;
+    display:none;
+    border-radius: 10px;
+}
+.error_box p {
+    margin-top:5px;
+}
